@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sentinel Arcade Privacy</title>
+<style>/* Sentinel Arcade's public pages (privacy policy, support): one stylesheet, every value a token. */
+:root {
+  /* neutrals */
+  --gray-0: #ffffff;
+  --gray-50: #f5f6f8;
+  --gray-100: #e7e9ee;
+  --gray-300: #b9bfcb;
+  --gray-500: #6b7385;
+  --gray-700: #3a4150;
+  --gray-800: #232833;
+  --gray-900: #151820;
+  /* primary: dusk blue */
+  --blue-300: #8fb2ff;
+  --blue-500: #3d6fe0;
+  --blue-700: #234aa8;
+  /* semantic */
+  --warning-100: #fff1c7;
+  --warning-800: #6b4a00;
+
+  --bg: var(--gray-50);
+  --surface: var(--gray-0);
+  --text: var(--gray-900);
+  --text-muted: var(--gray-700);
+  --border: var(--gray-100);
+  --link: var(--blue-700);
+  --note-bg: var(--warning-100);
+  --note-text: var(--warning-800);
+
+  /* spacing (8pt grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* type */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --t-title: 600 32px/40px var(--font);
+  --t-h2: 600 20px/28px var(--font);
+  --t-body: 400 16px/24px var(--font);
+  --t-small: 400 14px/20px var(--font);
+
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(21, 24, 32, 0.06);
+  --measure: 680px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--gray-900);
+    --surface: var(--gray-800);
+    --text: var(--gray-50);
+    --text-muted: var(--gray-300);
+    --border: var(--gray-700);
+    --link: var(--blue-300);
+    --note-bg: var(--warning-800);
+    --note-text: var(--warning-100);
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: var(--t-body);
+}
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space-12) var(--space-4);
+}
+nav {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+  font: var(--t-small);
+}
+h1 { font: var(--t-title); margin: 0 0 var(--space-2); }
+h2 { font: var(--t-h2); margin: var(--space-8) 0 var(--space-3); }
+p, ul { margin: 0 0 var(--space-4); }
+ul { padding-left: var(--space-6); }
+li { margin-bottom: var(--space-2); }
+.updated { font: var(--t-small); color: var(--text-muted); margin-bottom: var(--space-8); }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+.card > :last-child { margin-bottom: 0; }
+.card > h2:first-child { margin-top: 0; }
+a { color: var(--link); }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: var(--radius-md); }
+/* placeholders still to fill in before publishing */
+.todo {
+  background: var(--note-bg);
+  color: var(--note-text);
+  border-radius: var(--radius-md);
+  padding: 0 var(--space-1);
+  font-weight: 600;
+}
+footer { font: var(--t-small); color: var(--text-muted); margin-top: var(--space-12); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">Support</a><a href="privacy.html" aria-current="page">Privacy policy</a></nav>
+
+<h1>Privacy policy</h1>
+<p class="updated">Sentinel Arcade. Effective November 20, 2026.</p>
+
+<p>Sentinel Arcade is an iPhone app. This policy describes what information the app uses and who receives it. "The developer" below means the maker of Sentinel Arcade, who can be reached at the address under Contact.</p>
+
+<h2>Information stored on your phone</h2>
+<p>The app stores your scores, tokens, settings, saved games, achievements, and the fighters and characters you have unlocked. This information stays on your phone and is not sent to the developer. It is included in your phone's backups. Deleting the app deletes it, except for anything recorded in Game Center.</p>
+
+<h2>Advertising</h2>
+<p>The free version of the app shows ads provided by Google AdMob. An ad appears when you switch to the other game after playing one game for a few minutes, and when you choose to watch an ad to get a token.</p>
+<p>To show ads, Google's advertising software collects:</p>
+<ul>
+  <li>your approximate location, based on your IP address</li>
+  <li>device identifiers</li>
+  <li>your interactions with ads, and other advertising data</li>
+  <li>crash, performance and diagnostic data</li>
+</ul>
+<p>The app requests non-personalized ads only. These ads are not based on your activity in other apps or on websites. The app does not ask for permission to track you. Users in the European Economic Area and the United Kingdom see Google's consent form before any ad is shown. They can change their answer at any time in the app: open Settings on the arcade floor and tap Privacy choices. Buying Unlimited Mode removes all ads.</p>
+<p>Google's use of this information is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and by Google's policy on <a href="https://policies.google.com/technologies/partner-sites">how it uses information from apps that use its services</a>.</p>
+
+<h2>Purchases</h2>
+<p>Unlimited Mode is sold through Apple's App Store, and Apple processes the payment. The developer does not receive your name or payment details. The app only checks with Apple whether Unlimited Mode has been bought on your Apple Account. Apple's handling of this information is covered by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
+
+<h2>Game Center</h2>
+<p>If you are signed in to Game Center, the app sends your scores and achievements to Apple's Game Center. Other players may be able to see them, depending on your Game Center settings. If you are not signed in, nothing is sent.</p>
+
+<h2>Crash reports</h2>
+<p>If you have turned on Share with App Developers in your iPhone's settings, Apple may send the developer crash reports. These reports do not identify you.</p>
+
+<h2>Sharing and tracking</h2>
+<p>The developer does not sell or share personal information, does not run its own analytics, and does not track you across other companies' apps or websites.</p>
+
+<h2>Your privacy rights</h2>
+<p>Privacy laws in some places, including California and other US states and the United Kingdom, give you rights over your personal information. These include the right to know what is collected, to get a copy, to correct it, to delete it, and to opt out of its sale or its use for targeted advertising.</p>
+<p>The developer holds no personal information about you. The app sends nothing to the developer, so the developer has nothing to send you, correct or delete. To delete what the app stores on your phone, delete the app.</p>
+<p>The developer does not sell personal information. The app does not use your information for targeted advertising: it requests non-personalized ads only.</p>
+<p>Google holds the information listed under Advertising. To make a request about that information, contact Google as described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>You will not be treated differently for using any of these rights. To ask a question or make a request, email <a href="mailto:sentinelarcade@gmail.com">sentinelarcade@gmail.com</a>.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children under 13. The developer does not knowingly collect personal information from children under 13.</p>
+
+<h2>Changes to this policy</h2>
+<p>Changes will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:sentinelarcade@gmail.com">sentinelarcade@gmail.com</a></p>
+</main>
+</body>
+</html>

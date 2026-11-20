@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sentinel Arcade Support</title>
+<style>/* Sentinel Arcade's public pages (privacy policy, support): one stylesheet, every value a token. */
+:root {
+  /* neutrals */
+  --gray-0: #ffffff;
+  --gray-50: #f5f6f8;
+  --gray-100: #e7e9ee;
+  --gray-300: #b9bfcb;
+  --gray-500: #6b7385;
+  --gray-700: #3a4150;
+  --gray-800: #232833;
+  --gray-900: #151820;
+  /* primary: dusk blue */
+  --blue-300: #8fb2ff;
+  --blue-500: #3d6fe0;
+  --blue-700: #234aa8;
+  /* semantic */
+  --warning-100: #fff1c7;
+  --warning-800: #6b4a00;
+
+  --bg: var(--gray-50);
+  --surface: var(--gray-0);
+  --text: var(--gray-900);
+  --text-muted: var(--gray-700);
+  --border: var(--gray-100);
+  --link: var(--blue-700);
+  --note-bg: var(--warning-100);
+  --note-text: var(--warning-800);
+
+  /* spacing (8pt grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* type */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --t-title: 600 32px/40px var(--font);
+  --t-h2: 600 20px/28px var(--font);
+  --t-body: 400 16px/24px var(--font);
+  --t-small: 400 14px/20px var(--font);
+
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(21, 24, 32, 0.06);
+  --measure: 680px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--gray-900);
+    --surface: var(--gray-800);
+    --text: var(--gray-50);
+    --text-muted: var(--gray-300);
+    --border: var(--gray-700);
+    --link: var(--blue-300);
+    --note-bg: var(--warning-800);
+    --note-text: var(--warning-100);
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: var(--t-body);
+}
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space-12) var(--space-4);
+}
+nav {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+  font: var(--t-small);
+}
+h1 { font: var(--t-title); margin: 0 0 var(--space-2); }
+h2 { font: var(--t-h2); margin: var(--space-8) 0 var(--space-3); }
+p, ul { margin: 0 0 var(--space-4); }
+ul { padding-left: var(--space-6); }
+li { margin-bottom: var(--space-2); }
+.updated { font: var(--t-small); color: var(--text-muted); margin-bottom: var(--space-8); }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+.card > :last-child { margin-bottom: 0; }
+.card > h2:first-child { margin-top: 0; }
+a { color: var(--link); }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: var(--radius-md); }
+/* placeholders still to fill in before publishing */
+.todo {
+  background: var(--note-bg);
+  color: var(--note-text);
+  border-radius: var(--radius-md);
+  padding: 0 var(--space-1);
+  font-weight: 600;
+}
+footer { font: var(--t-small); color: var(--text-muted); margin-top: var(--space-12); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html" aria-current="page">Support</a><a href="privacy.html">Privacy policy</a></nav>
+
+<h1>Support</h1>
+<p class="updated">Sentinel Arcade contains two games, Sentinel Swarm and Rubble Run. It is free to play.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:sentinelarcade@gmail.com">sentinelarcade@gmail.com</a>. Please include your iPhone model, your iOS version, the game you were playing, and a description of the problem.</p>
+
+<h2>Tokens</h2>
+<p>A token buys a continue at the end of a run. New players start with 3 tokens. Each day, if you have fewer than 3, your tokens are refilled to 3. Eleven of the achievements give 1 token each, once.</p>
+<p>You can watch an ad to get a token at any time: tap the coin on the arcade floor, then tap Watch an ad for a token. If you have no tokens at the end of a run, you can watch an ad to continue.</p>
+
+<h2>Unlimited Mode</h2>
+<p>Unlimited Mode is a one-time purchase ($1.99 in the United States). It makes continues free and removes ads. It does not unlock the fighters or characters earned through achievements.</p>
+
+<h2>Restoring Unlimited Mode</h2>
+<p>To restore Unlimited Mode on a new phone or after reinstalling the app, tap the gear on the arcade floor to open Settings, then tap Restore purchases. You must be signed in with the Apple Account used to buy it.</p>
+
+<h2>Continued runs</h2>
+<p>When you continue a run, your score resets to 0. A continued run does not count toward your best score, the leaderboards or achievements.</p>
+
+<h2>Leaderboards and achievements</h2>
+<p>Leaderboards and achievements use Apple's Game Center. To sign in, open Settings on your iPhone and tap Game Center. If you reinstall the app and sign in to the same Game Center account, the fighters and characters you earned are restored.</p>
+
+<h2>Deleting the app</h2>
+<p>Best scores, tokens and settings are stored only on your phone. Deleting the app removes them unless you restore your phone from a backup. Unlimited Mode and your Game Center records are not affected.</p>
+
+<h2>Privacy</h2>
+<p>See the <a href="privacy.html">privacy policy</a>.</p>
+</main>
+</body>
+</html>
